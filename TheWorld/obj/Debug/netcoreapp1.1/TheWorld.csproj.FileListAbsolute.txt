@@ -1,0 +1,9 @@
+E:\Development\Learning\dotNetCore\BuildingAWebAppWithAspNetCore\TheWorld\TheWorld\bin\Debug\netcoreapp1.1\TheWorld.deps.json
+E:\Development\Learning\dotNetCore\BuildingAWebAppWithAspNetCore\TheWorld\TheWorld\bin\Debug\netcoreapp1.1\TheWorld.runtimeconfig.json
+E:\Development\Learning\dotNetCore\BuildingAWebAppWithAspNetCore\TheWorld\TheWorld\bin\Debug\netcoreapp1.1\TheWorld.runtimeconfig.dev.json
+E:\Development\Learning\dotNetCore\BuildingAWebAppWithAspNetCore\TheWorld\TheWorld\bin\Debug\netcoreapp1.1\TheWorld.dll
+E:\Development\Learning\dotNetCore\BuildingAWebAppWithAspNetCore\TheWorld\TheWorld\bin\Debug\netcoreapp1.1\TheWorld.pdb
+E:\Development\Learning\dotNetCore\BuildingAWebAppWithAspNetCore\TheWorld\TheWorld\obj\Debug\netcoreapp1.1\TheWorld.csprojResolveAssemblyReference.cache
+E:\Development\Learning\dotNetCore\BuildingAWebAppWithAspNetCore\TheWorld\TheWorld\obj\Debug\netcoreapp1.1\TheWorld.AssemblyInfo.cs
+E:\Development\Learning\dotNetCore\BuildingAWebAppWithAspNetCore\TheWorld\TheWorld\obj\Debug\netcoreapp1.1\TheWorld.dll
+E:\Development\Learning\dotNetCore\BuildingAWebAppWithAspNetCore\TheWorld\TheWorld\obj\Debug\netcoreapp1.1\TheWorld.pdb
