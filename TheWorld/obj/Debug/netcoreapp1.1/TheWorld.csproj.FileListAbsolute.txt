@@ -7,3 +7,12 @@ E:\Development\Learning\dotNetCore\BuildingAWebAppWithAspNetCore\TheWorld\TheWor
 E:\Development\Learning\dotNetCore\BuildingAWebAppWithAspNetCore\TheWorld\TheWorld\obj\Debug\netcoreapp1.1\TheWorld.AssemblyInfo.cs
 E:\Development\Learning\dotNetCore\BuildingAWebAppWithAspNetCore\TheWorld\TheWorld\obj\Debug\netcoreapp1.1\TheWorld.dll
 E:\Development\Learning\dotNetCore\BuildingAWebAppWithAspNetCore\TheWorld\TheWorld\obj\Debug\netcoreapp1.1\TheWorld.pdb
+F:\Personal\Training\DotNET Core\TheWorld\TheWorld\bin\Debug\netcoreapp1.1\TheWorld.deps.json
+F:\Personal\Training\DotNET Core\TheWorld\TheWorld\bin\Debug\netcoreapp1.1\TheWorld.runtimeconfig.json
+F:\Personal\Training\DotNET Core\TheWorld\TheWorld\bin\Debug\netcoreapp1.1\TheWorld.runtimeconfig.dev.json
+F:\Personal\Training\DotNET Core\TheWorld\TheWorld\bin\Debug\netcoreapp1.1\TheWorld.dll
+F:\Personal\Training\DotNET Core\TheWorld\TheWorld\bin\Debug\netcoreapp1.1\TheWorld.pdb
+F:\Personal\Training\DotNET Core\TheWorld\TheWorld\obj\Debug\netcoreapp1.1\TheWorld.csprojResolveAssemblyReference.cache
+F:\Personal\Training\DotNET Core\TheWorld\TheWorld\obj\Debug\netcoreapp1.1\TheWorld.AssemblyInfo.cs
+F:\Personal\Training\DotNET Core\TheWorld\TheWorld\obj\Debug\netcoreapp1.1\TheWorld.dll
+F:\Personal\Training\DotNET Core\TheWorld\TheWorld\obj\Debug\netcoreapp1.1\TheWorld.pdb
