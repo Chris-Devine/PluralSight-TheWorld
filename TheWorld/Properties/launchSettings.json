@@ -4,7 +4,7 @@
     "anonymousAuthentication": true,
     "iisExpress": {
       "applicationUrl": "http://localhost:50169/",
-      "sslPort": 0
+      "sslPort": 44357
     }
   },
   "profiles": {

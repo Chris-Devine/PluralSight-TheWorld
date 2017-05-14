@@ -1,6 +1,11 @@
 ﻿{
-    "MailSettings":
-    {
-        "ToAddress": "chris.devine@mrdevine.co.uk"
-    }
+  "MailSettings": {
+    "ToAddress": "chris.devine@mrdevine.co.uk"
+  },
+  "ConnectionStrings": {
+    "WorldContextConnection": "Server=(localdb)\\MSSQLLocalDB;Database=TheWorldDb;Trusted_Connection=true;MultipleActiveResultSets=true"
+  },
+  "Keys": {
+    "BingKey": "AgPncQmJzn3N0mRx208rtd8IE0aOzK6tRYdvD8d12ksHQ9XLYA7XRuDsPaLttGnn"
+  } 
 }

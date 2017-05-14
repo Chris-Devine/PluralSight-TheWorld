@@ -1,18 +1,14 @@
-﻿@{
+﻿@using TheWorld.Models
+@model IEnumerable<Trip>
+
+@{
   ViewBag.Title = "Home Page";
 }
-<h1>The World</h1>
-<p>This will be a fun website soon!</p>
-<form>
-  <div>
-    <label>Date</label>
-    <input />
-  </div>
-  <div>
-    <label>Location</label>
-    <input />
-  </div>
-  <div>
-    <input type="submit" value="Add" />
-  </div>
-</form>
+<div class="row">
+    <div class="col-md-12">
+        <h1>Welcome to The World</h1>
+        <p>This app will allow you to plan for world trips</p>
+        <a asp-controller="App" asp-action="Trips" class="btn btn-lg btn-success">View My Trips</a>
+    </div>
+
+</div>
