@@ -1,15 +1,59 @@
 ﻿(function() {
-    "use strict";
+        "use strict";
 
-    angular.module("app-trips")
-        .controller("tripsController", tripsController);
+        angular.module("app-trips")
+            .controller("tripsController", tripsController);
 
-    function tripsController() {
+        function tripsController($http) {
 
-        var vm = this;
+            var vm = this;
 
-        vm.name = "Chris Devine";
+            vm.trips = [];
 
-    }
+            vm.newTrip = {};
 
-})();
+            vm.errorMessage = "";
+            vm.isBusy = true;
+
+            $http.get("/api/trips")
+                .then(
+                    function(response) {
+                        //Success
+                        angular.copy(response.data, vm.trips);
+                    },
+                    function(error) {
+                        //Failure
+                        vm.errorMessage = "failed to load data: " + error;
+                    }
+                )
+                .finally(
+                    function() {
+                        vm.isBusy = false;
+                    }
+                );
+
+            vm.addTrip = function() {
+                vm.isBusy = true;
+                vm.errorMessage = "";
+
+                $http.post("/api/trips", vm.newTrip)
+                    .then(
+                        function(response) {
+                            //Success
+                            vm.trips.push(response.data);
+                            vm.newTrip = {};
+                        },
+                        function(error) {
+                            //Failure
+                            vm.errorMessage = "failed to save new trip: " + error;
+                        }
+                    )
+                    .finally(
+                        function() {
+                            vm.isBusy = false;
+                        }
+                    );
+            };
+        }
+    })
+    ();
