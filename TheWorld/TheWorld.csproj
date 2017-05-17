@@ -45,4 +45,13 @@
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="1.0.0" />
   </ItemGroup>
+
+  <Target Name="MyPreCompileTarget" BeforeTargets="Build">
+    <Exec Command="npm install" />
+    <Exec Command="bower install" />
+    <Exec Command="gulp minify" />
+  </Target>
+  
 </Project>
+
+
